@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public API Explorer</title>
+</head>
+<body>
+    
+    <header id="landing">
+        <div class="header">
+            <h1>Public API Explorer</h1>
+            <h4>Browse free and open APIs for your projects</h4>
+        </div>
+    </header>
+
+    <section class="searchbar">
+        <div id="searchcontent">    
+            <input type="text" id="search" placeholder="Search by category or name..">
+            <button id="searchbtn">Search</button>
+            <input type="checkbox" name="AUTH_req" id="Auth_req">Auth required
+            <input type="checkbox" name="HTTPS_only" id="HTTPS_only">HTTPS only
+            <input type="checkbox" name="CORS" id="CORS">CORS
+        </div>
+    </section>
+
+    <section id="apilisting">
+        <div class="maincontent">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Auth</th>
+                    <th>HTTPS</th>
+                    <th>CORS</th>
+                    <th>Link</th>
+                    <th>Category</th>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+</body>
+</html>
